@@ -21,47 +21,44 @@
                     <div class="alert alert-danger" role="alert">
                         Some fields are missing
                         </div>
-                        <div class=".col-md-4">
-                        <label for="exampleFormControlInput1" class="form-label">Card #</label>
-                        <input type="card#" class="form-control" id="exampleFormControlInput1" placeholder="xxxxxxxxxxxxxxxx">
+
+                        <div class="container">
+                          <div class="row">
+                            <div class="col">
+                              <label for="exampleFormControlInput1" class="form-label">Card #</label>
+                              <input type="card#" class="form-control" id="exampleFormControlInput1" placeholder="xxxxxxxxxxxxxxxx">
+                                    </div>
+                              <div class="col-6">
+                                  <label for="exampleFormControlInput1" class="form-label">CVC #</label>
+                                  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Expration"
                               </div>
 
-                        <div class=".col-md-4">
-                            <label for="exampleFormControlInput1" class="form-label">Exp</label>
-                            <input type="Exp" class="form-control" id="exampleFormControlInput1" placeholder="Expration"
+                              <div class="col">
+                                <label for="exampleFormControlInput1" class="form-label">Amount</label>
+                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Amount"
+                               </div>
+                              
+                          </div>
+                          
+                        <div class="container">
+                          
                         </div>
-                        
-                        <div class="row g-3">
+                          
+                        </div>
+
+                        <div class="container">
+                          <div class="row g-3">
                             <div class="col">
+                              <label for="exampleFormControlInput1" class="form-label">First Name</label>
                               <input type="text" class="form-control" placeholder="First name" aria-label="First name">
                             </div>
                             <div class="col">
+                              <label for="exampleFormControlInput1" class="form-label">Last Name</label>
                               <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                             </div>
                           </div>
-                        
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                  
+                        </div>
                       <form class="row g-3">
-                      <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                      </div>
-                      <div class="col-12">
-                        <label for="inputAddress2" class="form-label">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                      </div>
                       <div class="col-md-6">
                         <label for="inputCity" class="form-label">City</label>
                         <input type="text" class="form-control" id="inputCity">
@@ -77,7 +74,21 @@
                         <label for="inputZip" class="form-label">Zip</label>
                         <input type="text" class="form-control" id="inputZip">
                       </div>
-                      <div class="col-12">
+
+                    <dov class="bottom">
+                      <div class="bottom-left">
+                        <p>We accept:</p>
+                      </div>
+                      <div class="bottom-right">
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    
+                      </div>
+                    </dov>
+                   
+                      <div class="col-11">
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" id="gridCheck">
                           <label class="form-check-label" for="gridCheck">
@@ -86,10 +97,10 @@
                         </div>
                       </div>
                   </div>
-                 
                   <div class="card-footer">
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                        <button type="button" class="btn btn-secondary">Cancel</button>
                       </div>
                   </div>
                 
